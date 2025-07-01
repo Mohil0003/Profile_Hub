@@ -1,34 +1,54 @@
-# Profile_Hub
+# ProfileHub - Flutter User Management App
+
+ProfileHub is a comprehensive user management application built with Flutter that enables administrators to manage user profiles, analyze demographic data, and generate reports. The app features CRUD operations, real-time analytics, and PDF export capabilities.
+
+# Features
+ ## User Management
+
+        Create, view, edit, and delete user profiles
+
+        Form validation with age verification (18-80 years)
+
+        Hobby tagging system with multi-select
+
+        Location-based filtering (Rajkot as default city)
+
+## Advanced Analytics
+
+        Real-time gender distribution visualization
+
+        Age segmentation (Under 25, 25-35, Above 35)
+
+        Hobby popularity rankings with percentage metrics
+
+        Demographic data visualization
+        
+## Profile Operations
+
+        PDF generation with timestamps
+
+        Download history tracking
+
+        Favorite user system
+
+        REST API integration
 
 
 
-Installation
-Clone the repository
 
-bash
-git clone https://github.com/yourusername/profilehub.git
-cd profilehub
-Install dependencies
 
-bash
-flutter pub get
-Run the application
+# Dependencies
 
-bash
-flutter run
-Dependencies
 provider - State management
-
 pdf - PDF generation
-
 http - REST API integration
-
 intl - Date formatting
-
 charts_flutter - Data visualization
 
-Project Structure
-text
+
+
+# Project Structure
+
 lib/
 ├── models/
 │   ├── user_model.dart
@@ -47,65 +67,20 @@ lib/
 │   ├── age_chart.dart
 │   └── hobby_chart.dart
 └── main.dart
-API Reference
-User Endpoints
-http
-GET /api/users
-Returns all users
 
-http
-POST /api/users
-Creates a new user
 
-http
-PUT /api/users/{id}
-Updates a user
 
-http
-DELETE /api/users/{id}
-Deletes a user
-
-Usage Examples
-Creating a User
-dart
-UserProfile newUser = UserProfile(
-  name: 'John Doe',
-  email: 'john@example.com',
-  phone: '9876543210',
-  birthDate: DateTime(1995, 5, 15),
-  city: 'Rajkot',
-  gender: Gender.male,
-  hobbies: [Hobby.sports, Hobby.travel]
-);
-
-await UserService.createUser(newUser);
-Generating PDF Report
-dart
-File pdfFile = await PdfService.generateUserProfile(user);
-await PdfService.savePdf(pdfFile, '${user.name}_profile.pdf');
-Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the project
-
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a pull request
-
-License
+# License 
 Distributed under the MIT License. See LICENSE for more information.
 
-Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/profilehub
 
-Acknowledgements
+
+# Contact
+Mohil Parmar (Devloper) - mohilparmar1526@gmail.com
+Project Link: https://github.com/Mohil0003/Profile_Hub
+
+
+# Acknowledgements
 Flutter - Beautiful native apps in record time
-
 Font Awesome - The iconic SVG, font, and CSS toolkit
-
 Provider - State management solution
