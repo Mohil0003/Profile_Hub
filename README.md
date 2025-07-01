@@ -39,48 +39,58 @@ ProfileHub is a comprehensive user management application built with Flutter tha
 
 # Dependencies
 
-provider - State management
-pdf - PDF generation
-http - REST API integration
-intl - Date formatting
-charts_flutter - Data visualization
+    provider - State management
+    
+    pdf - PDF generation
+    
+    http - REST API integration
+    
+    intl - Date formatting
+    
+    charts_flutter - Data visualization
 
 
 
 # Project Structure
 
-lib/
-├── models/
-│   ├── user_model.dart
-│   └── hobby_model.dart
-├── services/
-│   ├── api_service.dart
-│   └── pdf_service.dart
-├── screens/
-│   ├── dashboard_screen.dart
-│   ├── user_list_screen.dart
-│   ├── profile_screen.dart
-│   ├── analytics_screen.dart
-│   └── add_user_screen.dart
-├── widgets/
-│   ├── user_card.dart
-│   ├── age_chart.dart
-│   └── hobby_chart.dart
-└── main.dart
+    lib/
+    ├── models/
+    │   ├── user_model.dart
+    │   └── hobby_model.dart
+    ├── services/
+    │   ├── api_service.dart
+    │   └── pdf_service.dart
+    ├── screens/
+    │   ├── dashboard_screen.dart
+    │   ├── user_list_screen.dart
+    │   ├── profile_screen.dart
+    │   ├── analytics_screen.dart
+    │   └── add_user_screen.dart
+    ├── widgets/
+    │   ├── user_card.dart
+    │   ├── age_chart.dart
+    │   └── hobby_chart.dart
+    └── main.dart
 
 
 
 # License 
+
 Distributed under the MIT License. See LICENSE for more information.
 
 
 
 # Contact
-Mohil Parmar (Devloper) - mohilparmar1526@gmail.com
-Project Link: https://github.com/Mohil0003/Profile_Hub
+
+    Mohil Parmar (Devloper) - mohilparmar1526@gmail.com
+    
+    Project Link: https://github.com/Mohil0003/Profile_Hub
 
 
 # Acknowledgements
-Flutter - Beautiful native apps in record time
-Font Awesome - The iconic SVG, font, and CSS toolkit
-Provider - State management solution
+
+    Flutter - Beautiful native apps in record time
+    
+    Font Awesome - The iconic SVG, font, and CSS toolkit
+    
+    Provider - State management solution
